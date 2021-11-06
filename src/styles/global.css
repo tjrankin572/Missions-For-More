@@ -1,0 +1,406 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font: 112.5%/1.45em georgia, serif, sans-serif;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    margin:0;
+    height: 100%;
+    background-color: black;
+  }
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: hsla(0, 0%, 0%, 0.8);
+    background-color: black;
+    font-family: georgia, serif;
+    font-weight: normal;
+    word-wrap: break-word;
+    font-kerning: normal;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
+
+    font-size:20px;
+    
+  }
+
+.hero-flex-container{
+
+ 
+ 
+}
+
+.hero_image{
+    display: flex;
+    background-attachment: fixed;
+    flex-direction: column;
+    background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/Hero_Image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    z-index: 1;
+    padding: 50px;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: space-around;
+  }
+
+.hero-image-two{
+    display: flex;
+    background-attachment: fixed;
+    flex-direction: column;
+    background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/women-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    z-index: 1;
+    padding: 50px;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: space-around;
+}
+
+.hero-image-three{
+  display: flex;
+  background-attachment: fixed;
+  flex-direction: column;
+  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/Hero_Image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+  z-index: 1;
+  padding: 50px;
+  text-align: center;
+  justify-content: flex-start;
+  align-items: space-around;
+}
+
+.hero-big-text{
+    font-size: 30px;
+    color: white;
+}
+
+.hero_text{
+    font-size: 20px;
+    color: white;
+}
+
+.hero-text-bold{
+  font-weight: bolder;
+}
+
+.hero_nav{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    height: 25px;
+    font-size: 20px;
+  
+    text-decoration: none;
+    color:#e8eaed;
+    text-align: center;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#e8eaed !important;
+}
+
+.flex-1{
+  flex: 1 1 0;
+}
+
+.flex-3{
+  flex: 2 1 0;
+}
+
+.flex-row-container{
+  display: flex;
+  flex-direction: row;
+
+  object-fit: contain;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+.flex-bio-row-container{
+  display: flex;
+  flex-direction: row;
+  object-fit: contain;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: black;
+  padding: 50px;
+}
+
+.flex-column-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  margin: 10px;
+  border-radius: 100px;
+
+}
+
+.flex-column-card-bio{
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 0 0 100%;
+  width: 100%;
+  max-width: 100vw;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  vertical-align: middle;
+}
+
+.flex-item{
+  flex-grow: 2;
+}
+.flex-item-full{
+  justify-content: center;
+  text-align: center;
+  margin-top: 5vh;
+  width: 100%;
+  color: white;
+}
+
+.flex-item-full-dfm{
+  justify-content: center;
+  text-align: center;
+  margin-top: 5vh;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.full-image{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.mission-image{
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.verse-image{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-flex-verse{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 150px;
+}
+
+.mission-verse{
+  color:white;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+ 
+}
+
+.mission-verse-reference{
+  color:white;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.give-bold{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.bottom-margin-b-20x{
+  margin-bottom: 20px;
+}
+
+.family_img{
+  border-radius: 20px;
+  height: 55vh;
+}
+ 
+.image-object-fill{
+
+  height: 100%;
+  width: 100%;
+}
+
+.img-standard-size{
+  height: 50%;
+  width:  50%;
+}
+
+.img-DFM-logo{
+ 
+  width: 95%;
+}
+.gatsbyMainContainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.mission-goal{
+  display: flex;
+  width: 60vh;
+  height: 75%;
+  flex-direction: column;
+  flex: 0 0 75%;
+  justify-content: space-evenly;
+  align-items: center;
+  color:white;
+  font-size: 20px;
+  text-align:center;
+}
+
+.mission-goal-wrapper{
+  padding: 20px;
+  background-color: rgba(228, 228, 228, 0.507);
+  border-radius: 10px;
+}
+
+/* Images Hack */
+
+
+.family_train{
+  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/Family_Union_Pacific.jpg');
+}
+
+.kids{
+  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/Cassie_Gideon.jpg');
+}
+
+.img_0276{
+  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/unadjustednonraw_thumb_1ce5.jpg');
+  background-size: 100% 100vh;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.img_0785{
+  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/IMG_0785.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+.img_1082{
+  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/IMG_1082.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+.SDH_8427{
+  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/SDH_8427.jpg');
+}
+  footer{
+      margin-top: auto;
+  }
+
+  main{
+      flex: 1 0 auto;
+  }
+
+
+
+ 
+  @media only screen and (min-width: 780px) {
+    html {
+      font-size: 100%;
+    }
+
+    .flex-column-card{
+      flex-direction: column;
+      justify-content: center;
+      width: 40%;
+      padding: 10px;
+      text-align: center;
+      align-items: center;
+      background-color: white;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .flex-column-card-2{
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 100%;
+      max-width: 20vw;
+      padding: 10px;
+      text-align: center;
+      align-items: center;
+      background-color: white;
+      margin: 10px;
+      border-radius: 10px;
+      vertical-align: middle;
+    }
+
+    .flex-column-card-bio{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1 0 50%;
+      width: 100%;
+      min-width: 25vw;
+      font-size: 20px;
+      padding: 10px;
+      text-align: center;
+      align-items:center;
+      background-color: white;
+    }
+
+    .flex-item-full-dfm{
+      justify-content: center;
+      text-align: center;
+      margin-top: 5vh;
+      padding: 30px;
+      width: 100%;
+      color: white;
+      background-color: rgb(255, 255, 255);
+    
+    }
+
+    
+
+    .img-DFM-logo{
+ 
+      width: 60%;
+    }
+  }
+  

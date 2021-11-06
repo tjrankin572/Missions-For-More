@@ -1,0 +1,34 @@
+nav{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 50px;
+    justify-content: space-evenly;
+
+    text-decoration: none;
+    color:#e8eaed;
+    
+}
+
+nav > a{
+    color:#e8eaed;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+}
+
+
+
+footer{
+    background-color: #202124;
+    color: #e8eaed;
+    text-align: center;
+    height: 100%;
+}
+
+.title{
+    color: #e8eaed;
+}
