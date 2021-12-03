@@ -111,7 +111,7 @@ const MissionPartner2 = () => (
           <p className="mission-verse">Pure and undefiled religion is this: to visit orphans and widows in their trouble, and to keep oneself unspotted from the world.
           </p>
           <p className="mission-verse-reference">James 1 :27</p>
-          <Link to="https://dareformore.org/donate/" target="_blank" className="nav-link give-bold">
+          <Link to="https://dareformore.kindful.com/" target="_blank" className="nav-link give-bold">
                   Give</Link>
         </div>
       </div> 

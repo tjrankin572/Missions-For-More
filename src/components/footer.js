@@ -9,7 +9,7 @@ const Footer = () => (
           
           <Link to="https://dareformore.org/" target="_blank">
                 Dare For More</Link>
-          <Link to="https://dareformore.org/donate/" target="_blank">
+          <Link to="https://dareformore.kindful.com/" target="_blank">
                 Give!</Link>
 
     </nav>
