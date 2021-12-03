@@ -4,13 +4,43 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Hero from "../components/hero-extra-small"
+import Hero from "../components/hero"
+
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBullhorn } from '@fortawesome/free-solid-svg-icons'
+import { faSeedling } from '@fortawesome/free-solid-svg-icons'
+import { faTshirt } from '@fortawesome/free-solid-svg-icons'
 
 const Bio = () => (
   <Layout>
     <Seo title="Bio" />
-    <Hero heroText='Then I heard the voice of the Lord saying, “Whom shall I send? And who will go for us?” And I said, “Here am I. Send me!"' heroCitation="Isaiah 6:8"/>
+    <Hero heroImage="hero-image-three" heroText='Then I heard the voice of the Lord saying, “Whom shall I send? And who will go for us?” And I said, “Here am I. Send me!"' heroCitation="Isaiah 6:8"/>
 
+
+     {/*Hammond Job Function*/}
+     <section>
+      <div className="img_2576 bio-full-image">
+        <div className="mission-goal mission-goal-wrapper">
+          <h2>Hammond Family Responsibility</h2>
+          <p><FontAwesomeIcon icon={faSeedling} size="3x"></FontAwesomeIcon> </p>
+          <p>We will be working on new tools to raise awareness of Dare For More’s ministry to a greater population, 
+              taking teams of people on missions trips in which they can have first-hand experience witnessing what their 
+              support accomplishes as well as participating in kingdom building exercises to spread the love of Jesus.</p>
+        
+              <p><FontAwesomeIcon icon={faBullhorn} size="3x"></FontAwesomeIcon> </p>
+            <p>Day to day, our goal will be to build a presence via a YouTube channel and connecting through Facebook and Instagram 
+              to keep people connected to the ministry. We will also continue to fund raise and create greater visibility through connecting people to the ministry. 
+              Future plans include logistics, development and implementation of various subscription programs to provide sustainability 
+              to at risk women (current programs are directed toward coffee that is sourced through Guatemala and is managed by a 
+              partner non-profit organization however this may develop into something beyond that).</p>
+              <p><FontAwesomeIcon icon={faTshirt} size="3x"></FontAwesomeIcon> </p>
+            <p>We will also provide marketing and sale of items made by women who have been rescued and other opportunities 
+              as they present themselves.</p> 
+          </div>
+        </div>
+    </section>
+    
     {/* Pictures*/}
     <section>
       <div className="flex-bio-row-container">
@@ -50,13 +80,6 @@ const Bio = () => (
       </div>
 
        
-    </section>
-    {/* Kids Bio*/}
-    <section>
-
-
-      
-      
     </section>
   </Layout>
 )
