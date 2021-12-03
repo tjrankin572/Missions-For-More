@@ -67,8 +67,7 @@ const Bio = () => (
           <div className="flex-item">
               <h3>Kassia</h3>
               <p >Kassia is a sweet 16 year old who loves her family. 
-              She is very creative, always doing fun arts and crafts, loves to read and is quite tenacious. 
-              Find people in tough situations and pouring the Love of God on them.</p>
+              She is very creative, always doing fun arts and crafts, loves to read and is quite tenacious. </p>
           </div>
           <div className="flex-item">
               <h3>Gideon</h3>
