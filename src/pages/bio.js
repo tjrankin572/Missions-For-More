@@ -47,7 +47,8 @@ const Bio = () => (
         
 
         <div className="flex-column-card-bio">
-          <h2 className="flex-item">Quick Introduction</h2>
+          <h2 className="flex-item">Who We Are</h2>
+          <br></br>
           <p className="flex-item">Dave and Ruth were called out of a successful General Contracting business to begin serving the Lord 
           in a new way. Ruth began full-time work supporting the family while Dave completed an Associates degree in 
           Christian Counseling. After that, there was a waiting period while God orchestrated the events that would lead 
@@ -64,11 +65,13 @@ const Bio = () => (
         </div>
         <div className="flex-column-card-bio">
           <h2 className="flex-item">Our Kids</h2>
+          <br></br>
           <div className="flex-item">
               <h3>Kassia</h3>
               <p >Kassia is a sweet 16 year old who loves her family. 
               She is very creative, always doing fun arts and crafts, loves to read and is quite tenacious. </p>
           </div>
+          <br></br>
           <div className="flex-item">
               <h3>Gideon</h3>
               <p >Gideon is our 13 year old. He is scientific minded yet very creative.  

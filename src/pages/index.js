@@ -17,7 +17,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
   
-    <Hero heroImage="hero-image" heroText="Human Trafficking includes the use of force, fraud, or coercian to obtain some type of Labor or Commercial Sex Act." heroCitation="Homeland Security"/>
+    <Hero heroImage="hero-image" heroText="Human Trafficking includes the use of force, fraud, or coercion to obtain some type of Labor or Commercial Sex Act." heroCitation="Homeland Security"/>
         
     <section>
       
