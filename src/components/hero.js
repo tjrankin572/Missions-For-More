@@ -13,7 +13,7 @@ const Hero = ({heroText, heroCitation, heroBig, heroImage}) => (
  
     
       <div className="mobile-container">
-                <Link to="/" className="logo">Mission For More</Link>
+                <Link to="/" className="logo">Missions For More</Link>
                 <label for="toggle" class="hamburger"><FontAwesomeIcon icon={faBars}  size="2x"></FontAwesomeIcon></label>
 
                 <input type="checkbox" id="toggle" value="checked"></input>

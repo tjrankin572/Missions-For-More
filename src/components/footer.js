@@ -7,9 +7,9 @@ const Footer = () => (
     <br></br>
     <nav>
           
-          <Link to="/bio" >
+          <Link to="https://dareformore.org/" target="_blank">
                 Dare For More</Link>
-          <Link to="/mission-partner">
+          <Link to="https://dareformore.org/" target="_blank">
                 Give!</Link>
 
     </nav>
