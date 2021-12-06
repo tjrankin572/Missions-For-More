@@ -81,7 +81,11 @@
 
 }
 
-
+.nav-btn{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
 #toggle:checked + .nav-mobile {
   display: flex;
@@ -199,6 +203,18 @@ html {
   font-weight: bolder;
 }
 
+.mobile-hidden{
+  visibility: hidden;
+  display: none;
+}
+
+.qr-code{
+  width: 15%;
+  height: 15%;
+  visibility: hidden;
+  display: none;
+}
+
 .hero_nav{
     display: none;
     flex-direction: row;
@@ -216,6 +232,11 @@ html {
 .nav-link{
     text-decoration: none;
     color:#e8eaed !important;
+}
+
+.nav-link:hover{
+  text-decoration: none;
+  color:#a0a1a3 !important;
 }
 
 .flex-1{
@@ -353,6 +374,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 50px;
 }
@@ -483,6 +505,15 @@ html {
 
  
   @media only screen and (min-width: 780px) {
+
+    .mobile-hidden{
+      visibility: visible;
+    }
+
+    .qr-code{
+      width: 15%;
+      height: 15%;
+    }
 
     .dfm-text{
       padding: 5px 75px;

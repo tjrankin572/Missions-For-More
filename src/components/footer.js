@@ -7,9 +7,9 @@ const Footer = () => (
     <br></br>
     <nav>
           
-          <Link to="https://dareformore.org/" target="_blank">
+          <Link to="https://dareformore.org/" target="_blank" className="flex-item btn btn-secondary nav-btn">
                 Dare For More</Link>
-          <Link to="https://dareformore.kindful.com/" target="_blank">
+          <Link to="https://dareformore.kindful.com/" target="_blank" className="flex-item btn btn-secondary nav-btn">
                 Give!</Link>
 
     </nav>

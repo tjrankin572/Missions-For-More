@@ -73,7 +73,7 @@ const MissionPartner2 = () => (
            
               <p>That God will provide the funding and ability to fulfill our calling for His Glory.</p>
               <p>For Family Unity as we transition into a missions life.</p>
-              <p>God will connect us with Inidividuals that we can help.</p>
+              <p>God will connect us with Individuals that we can help.</p>
            
           </div>
 
@@ -111,8 +111,10 @@ const MissionPartner2 = () => (
           <p className="mission-verse">Pure and undefiled religion is this: to visit orphans and widows in their trouble, and to keep oneself unspotted from the world.
           </p>
           <p className="mission-verse-reference">James 1 :27</p>
-          <Link to="https://dareformore.kindful.com/" target="_blank" className="nav-link give-bold">
-                  Give</Link>
+          <Link to="https://dareformore.kindful.com/" target="_blank" className="btn btn-secondary nav-link bottom-margin-b-20x">
+                  Give!</Link>
+          <p className="mission-verse-reference" className="mobile-hidden">Scan QR Code</p>
+          <StaticImage src="../images/Give_QR_Code.png" className="qr-code"/>
         </div>
       </div> 
     </section>
