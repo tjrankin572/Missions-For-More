@@ -508,11 +508,17 @@ html {
 
     .mobile-hidden{
       visibility: visible;
+      display: inline;
+      color: white;
+
     }
 
     .qr-code{
       width: 15%;
       height: 15%;
+      display: inline;
+      color: white;
+      visibility: visible;
     }
 
     .dfm-text{
