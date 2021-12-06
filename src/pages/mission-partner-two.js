@@ -73,7 +73,7 @@ const MissionPartner2 = () => (
            
               <p>That God will provide the funding and ability to fulfill our calling for His Glory.</p>
               <p>For Family Unity as we transition into a missions life.</p>
-              <p>God will connect us with Individuals that we can help.</p>
+              <p>God will connect us with individuals that we can help.</p>
            
           </div>
 
