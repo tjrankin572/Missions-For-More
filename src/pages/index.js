@@ -58,7 +58,7 @@ const IndexPage = () => (
 
       <div className="flex-item-full">
         
-        <p className="dfm-text">At Dare For More the goal is to bring hope and healing to women and girls who may be in danger of our involved in trafficking due to 
+        <p className="dfm-text">At Dare For More the goal is to bring hope and healing to women and girls who may be in danger of or are involved in trafficking due to 
           poverty, abuse or a lack of opportunity. As Directors of Global Sustainability we will be helpers by leading trips, building awareness and connecting needs to funds.
         </p>
         <p>Learn More About Our Ministry Partner</p>
