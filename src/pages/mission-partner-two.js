@@ -113,8 +113,6 @@ const MissionPartner2 = () => (
           <p className="mission-verse-reference">James 1 :27</p>
           <Link to="https://dareformore.kindful.com/" target="_blank" className="btn btn-secondary nav-link bottom-margin-b-20x">
                   Give!</Link>
-          <p className="mission-verse-reference" className="mobile-hidden">Scan QR Code</p>
-          <StaticImage src="../images/Give_QR_Code.png" className="qr-code"/>
         </div>
       </div> 
     </section>
