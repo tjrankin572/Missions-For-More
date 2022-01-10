@@ -4,13 +4,35 @@ import  "../styles/global.css"
 
 import { Link } from "gatsby"
 
-const Hero = ({heroText, heroCitation, heroBig}) => (
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
+
+const Hero = ({heroText, heroCitation, heroBig, heroImage}) => (
+    
     <section>
+ 
+    
+      <div className="mobile-container">
+                <Link to="/" className="logo">Missions For More</Link>
+                <label for="toggle" class="hamburger"><FontAwesomeIcon icon={faBars}  size="2x"></FontAwesomeIcon></label>
+
+                <input type="checkbox" id="toggle" value="checked"></input>
+                <div class="nav-mobile">
+                    <br></br>
+                    <nav>
+                        <ul>
+                        <Link to="/" >Home</Link>
+                        <Link to="/mission-partner-two" >Mission/Partner</Link>
+                        <Link to="/bio">About Us</Link>
+                        </ul>
+                    </nav>
+                </div>
+                
+      </div>
       <div className="hero-flex-container">
 
-        
-
-        <div className="hero_image">
+       
+        <div className={heroImage}>
             <nav className="hero_nav flex-1">
                 <div>
                     <Link to="/" className="nav-link">
