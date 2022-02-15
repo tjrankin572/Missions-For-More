@@ -21,6 +21,9 @@
   color: white;
 }
 
+.dfm-text-black{
+  color: black !important;
+}
 
 #toggle{
   display: none;
@@ -502,6 +505,10 @@ html {
       flex: 1 0 auto;
   }
 
+  .sign-up-background{
+    background-color: rgba(209, 94, 40, 0.507) !important;
+  }
+
 
  
   @media only screen and (min-width: 780px) {
@@ -511,6 +518,15 @@ html {
       display: inline;
       color: white;
 
+    }
+
+    .dfm-text-black{
+      color: black !important;
+    }
+
+    .sign-up-background{
+      background-color: rgba(209, 94, 40, 0.507) !important
+      ;
     }
 
     .qr-code{
