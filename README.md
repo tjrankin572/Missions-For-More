@@ -1,5 +1,6 @@
 ## Purpose
 To help a missionary couple by providing a low-cost website.
+<a href="https://relaxed-pike-f48305.netlify.app/">MissionsForMore.com- Netlify Link</a>
 
 
 ## What I learned
@@ -11,4 +12,4 @@ I am proud of the simple design this website utilized and I've carried it foward
 
 The missionary couple has since moved on from Dare For More, so the website is no longer in use. 
 
-The couple started their own ministry that focues on serving widows and orphans. We carried over the design from missionsformore.com to <a>oneson.org</a> which utilizes Wordpress and Themify.
+The couple started their own ministry that focues on serving widows and orphans. We carried over the design from missionsformore.com to <a href="https://oneson.org/">OneSon.org</a> which utilizes Wordpress and Themify.
