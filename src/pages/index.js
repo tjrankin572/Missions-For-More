@@ -9,6 +9,10 @@ import MobileNavigationMenu from "../components/mobile-navigation-menu"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
+import { faSolid, faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons"
+
+
+
 
 import "../styles/global.css"
 
@@ -64,11 +68,16 @@ const IndexPage = () => (
         <p>Learn More About Our Ministry Partner</p>
         <Link to="https://dareformore.org/" target="_blank" className="flex-item btn btn-secondary bottom-margin-b-20x">
                   Dare For More</Link>
-        
       </div>
-
-
     </div>
+    </section>
+
+    <section>
+      <div className="flex-item-full-dfm">
+        <FontAwesomeIcon icon={faEnvelopeOpenText} size="3x" color="#000000"></FontAwesomeIcon>
+        <p className="dfm-text dfm-text-black">Want to follow our story? Click the sign up button below to subscribe to our newsletter!</p>
+        <Link to="http://eepurl.com/hTT7kT" target="_blank" className="flex-item btn btn-secondary bottom-margin-b-20x">Newsletter Sign Up!</Link>
+      </div>
     </section>
 
     

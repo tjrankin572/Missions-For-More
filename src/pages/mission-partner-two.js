@@ -46,7 +46,7 @@ const MissionPartner2 = () => (
       <div className="img_0785 full-image">
         <div className="mission-goal mission-goal-wrapper">
           <h2>Dare For More</h2>
-          <p>Our goal in patnering with Dare for More is to create an arm of prevention and intervention for women who are 
+          <p>Our goal in partnering with Dare for More is to create an arm of prevention and intervention for women who are 
           impacted by trafficking, abuse and poverty. We will be stepping in to give each woman the opportunity to heal, 
           grow and build sustainable lives for them and their children.</p>
          
